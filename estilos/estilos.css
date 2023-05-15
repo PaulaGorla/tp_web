@@ -1,0 +1,232 @@
+.nav-pills {
+    background-color: #bdd8fe;
+    background-image: linear-gradient(315deg, #012353 0%, #22559c 74%);
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Amiri', serif;
+    font-style: b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover{
+    background-color: rgb(149, 31, 31); 
+    font-weight: bolder;
+    
+}
+
+body {
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 100%;
+}
+
+h1{ 
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 50px;
+    font-style: bold;
+    animation-duration: 3s;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 30rem;
+    color: #3d7cda;
+    text-align: center;
+    padding-left: 30px;
+    font-style: unset;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    color: #000000;
+    text-align: center;
+    background-color: white; 
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2rem;
+    display: inline-block;
+    font-style: bold;
+}    
+
+
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Amiri', serif;
+    color: #000000;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}    
+
+h5 {
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h6 {
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 15px;
+}
+
+.row {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+
+.prod:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+
+}
+
+
+p {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-row-gap: 40px;
+ 
+}
+
+#grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (6, 1fr);
+    grid-row-gap: 40px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block; 
+    margin: auto;
+
+}
+
+.nombre {
+    font-size: 2rem;    
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+
+.grids { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.foot-body {
+    margin-top: 1rem;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: #bdd8fe;
+    background-image: linear-gradient(315deg, #012353 0%, #22559c 74%);
+    font-style: normal;
+    font-size: 5px;
+    padding-top: 0%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;;
+}
+
+.foot-title {
+    font-family:'Amiri', serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+.foot-text {
+    font-family: 'Amiri', serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.btn-primario {
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+}
+
+.foot-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    background-image: linear-gradient(315deg, #012353 0%, #22559c 74%);
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #bdd8fe;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-muted {
+    color: #000000;
+}
+
+
+.producto {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .grids {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+    }
+    img {
+        width: 400px;
+        height: 400px;
+    }
+    h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+    }
+           
